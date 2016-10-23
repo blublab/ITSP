@@ -1,0 +1,16 @@
+<html><head><meta http-equiv="content-type" content="text/html; charset=UTF-8"><title>Google</title><style><!--
+body,td,a,p,.h{font-family:arial,sans-serif;}
+.h{font-size: 20px;}
+.q{color:#0000cc;}
+//-->
+</style>
+<script>
+<!--
+function sf(){document.f.q.focus();}
+// -->
+</script>
+</head><body bgcolor=#ffffff text=#000000 link=#0000cc vlink=#551a8b alink=#ff0000 onLoad=sf()><center><table border=0 cellspacing=0 cellpadding=0><tr><td><img src="/images/logo.gif" width=276 height=110 alt="Google"></td></tr></table><br>
+<form action="/search" name=f><script><!--
+function qs(el) {if (window.RegExp && window.encodeURIComponent) {var qe=encodeURIComponent(document.f.q.value);if (el.href.indexOf("q=")!=-1) {el.href=el.href.replace(new RegExp("q=[^&$]*"),"q="+qe);} else {el.href+="&q="+qe;}}return 0;}
+// -->
+</script><table border=0 cellspacing=0 cellpadding=4><tr><td nowrap class=q><font size=-1><b><font color=#000000>Web</font></b>&nbsp;&nbsp;&nbsp;&nbsp;<a id=1a class=q href="/imghp?hl=en&tab=wi&ie=UTF-8&oe=UTF-8" onClick="return qs(this);">Images</a>&nbsp;&nbsp;&nbsp;&nbsp;<a id=2a class=q href="/grphp?hl=en&tab=wg&ie=UTF-8&oe=UTF-8" onClick="return qs(this);">Groups</a>&nbsp;&nbsp;&nbsp;&nbsp;<a id=4a class=q href="/nwshp?hl=en&tab=wn&ie=UTF-8&oe=UTF-8" onClick="return q

@@ -1,0 +1,7 @@
+if (h) r = h.id;}} else{h = e.srcElement;f = h.parentNode;if (f) p = f.id;t = h.id;}if (t==a || p==a || r==a) return true;location.href=document.getElementById(a).href}}
+//-->
+</script>
+</head><body bgcolor=#ffffff onLoad="document.gs.reset()" topmargin=2 marginheight=2><table border=0 cellpadding=0 cellspacing=0><tr><td valign=top><a href=http://www.google.com/webhp?hl=en><img src=images/logo_sm.gif width=150 height=55 alt="Go to Google Home" border=0 vspace=12></a></td><td>&nbsp;&nbsp;</td><td valign=top><table cellpadding=0 cellspacing=0 border=0><tr><td colspan=2 height=14 valign=bottom><script><!--
+function qs(el) {if (window.RegExp && window.encodeURIComponent) {var qe=encodeURIComponent(document.gs.q.value);if (el.href.indexOf("q=")!=-1) {el.href=el.href.replace(new RegExp("q=[^&$]*"),"q="+qe);} else {el.href+="&q="+qe;}}return 1;}
+// -->
+</script><table border=0 cellpadding=4 cellspacing=0><tr><td class=q><font size=-1><font color=#000000><b>Web</b></font>&nbsp;&nbsp;&nbsp;&nbsp;<a id=t1a class=q href="http://images.google.com/images?q=rhino.exe&hl=en&lr=&ie=UTF-8&oe=UTF-8&sa=N&tab=wi" onClick="return qs(this);">Images</a>&nbsp;&nbsp;&nbsp;&nbsp;<a id=t2a class=q href="http://groups.google.com/groups?q=rhino.exe&hl=en&lr=&ie=UTF-8&oe=UTF-8&sa=N&tab=wg" onClick="return qs(this);">Groups</a>&nbsp;&nbsp;&nbsp;&nbsp;<a id=t4a class=q href="http://news.google.com/news?q=rhino.exe&hl=en&lr=&ie=UTF-8&oe=UT
