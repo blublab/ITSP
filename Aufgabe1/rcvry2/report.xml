@@ -1,0 +1,258 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dfxml xmloutputversion='1.0'>
+  <metadata 
+  xmlns='http://www.forensicswiki.org/wiki/Category:Digital_Forensics_XML' 
+  xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' 
+  xmlns:dc='http://purl.org/dc/elements/1.1/'>
+    <dc:type>Carve Report</dc:type>
+  </metadata>
+  <creator>
+    <package>PhotoRec</package>
+    <version>7.0</version>
+    <build_environment>
+      <compiler>GCC 5.3</compiler>
+      <library name='libext2fs' version='1.42.13'/>
+      <library name='libewf' version='none'/>
+      <library name='libjpeg' version='libjpeg-turbo-1.4.2'/>
+      <library name='libntfs' version='libntfs-3g'/>
+    </build_environment>
+    <execution_environment>
+      <os_sysname>Linux</os_sysname>
+      <os_release>4.4.0-45-generic</os_release>
+      <os_version>#66-Ubuntu SMP Wed Oct 19 14:12:37 UTC 2016</os_version>
+      <host>bob-ThinkPad-X230</host>
+      <arch>x86_64</arch>
+      <uid>1000</uid>
+      <start_time>2016-10-23T21:09:17+0200</start_time>
+    </execution_environment>
+  </creator>
+  <source>
+    <image_filename>usb.dd</image_filename>
+    <sectorsize>512</sectorsize>
+    <image_size>78983347</image_size>
+    <volume>
+      <byte_runs>
+        <byte_run offset='0' img_offset='1048576' len='73400320'/>
+      </byte_runs>
+      <block_size>512</block_size>
+    </volume>
+  </source>
+  <configuration>
+  </configuration>
+  <fileobject>
+    <filename>f0002240.txt</filename>
+    <filesize>595872</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='2195456' len='232448'/>
+      <byte_run offset='232448' img_offset='2428928' len='262144'/>
+      <byte_run offset='494592' img_offset='2692096' len='101376'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0003408.txt</filename>
+    <filesize>400000</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='2793472' len='12288'/>
+      <byte_run offset='12288' img_offset='2806784' len='262144'/>
+      <byte_run offset='274432' img_offset='3070976' len='125952'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0004196.txt</filename>
+    <filesize>900000</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='3196928' len='12288'/>
+      <byte_run offset='12288' img_offset='3210240' len='262144'/>
+      <byte_run offset='274432' img_offset='3474432' len='262144'/>
+      <byte_run offset='536576' img_offset='3737600' len='262144'/>
+      <byte_run offset='798720' img_offset='4000768' len='101376'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0005964.mp4</filename>
+    <filesize>405024</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='4102144' len='12288'/>
+      <byte_run offset='12288' img_offset='4115456' len='263168'/>
+      <byte_run offset='275456' img_offset='4379648' len='130048'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0033274.zip</filename>
+    <filesize>80157</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='18084864' len='12288'/>
+      <byte_run offset='12288' img_offset='18098176' len='68608'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0038246.jpg</filename>
+    <filesize>95814</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='20630528' len='12288'/>
+      <byte_run offset='12288' img_offset='20643840' len='83968'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0038436.jpg</filename>
+    <filesize>1754419</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='20727808' len='12288'/>
+      <byte_run offset='12288' img_offset='20741120' len='262144'/>
+      <byte_run offset='274432' img_offset='21005312' len='262144'/>
+      <byte_run offset='536576' img_offset='21268480' len='262144'/>
+      <byte_run offset='798720' img_offset='21531648' len='262144'/>
+      <byte_run offset='1060864' img_offset='21794816' len='262144'/>
+      <byte_run offset='1323008' img_offset='22057984' len='262144'/>
+      <byte_run offset='1585152' img_offset='22321152' len='169984'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0041880.jpg</filename>
+    <filesize>264600</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='22491136' len='12288'/>
+      <byte_run offset='12288' img_offset='22504448' len='252928'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0042400.jpg</filename>
+    <filesize>230665</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='22757376' len='12288'/>
+      <byte_run offset='12288' img_offset='22770688' len='219136'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0042854.txt</filename>
+    <filesize>900000</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='22989824' len='12288'/>
+      <byte_run offset='12288' img_offset='23003136' len='262144'/>
+      <byte_run offset='274432' img_offset='23267328' len='262144'/>
+      <byte_run offset='536576' img_offset='23530496' len='262144'/>
+      <byte_run offset='798720' img_offset='23793664' len='101376'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0050172.jpg</filename>
+    <filesize>6809</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='26736640' len='7168'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0050188.mp4</filename>
+    <filesize>6829384</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='26744832' len='12288'/>
+      <byte_run offset='12288' img_offset='26758144' len='262144'/>
+      <byte_run offset='274432' img_offset='27022336' len='262144'/>
+      <byte_run offset='536576' img_offset='27285504' len='262144'/>
+      <byte_run offset='798720' img_offset='27548672' len='262144'/>
+      <byte_run offset='1060864' img_offset='27811840' len='262144'/>
+      <byte_run offset='1323008' img_offset='28075008' len='262144'/>
+      <byte_run offset='1585152' img_offset='28338176' len='262144'/>
+      <byte_run offset='1847296' img_offset='28601344' len='262144'/>
+      <byte_run offset='2109440' img_offset='28864512' len='262144'/>
+      <byte_run offset='2371584' img_offset='29127680' len='262144'/>
+      <byte_run offset='2633728' img_offset='29390848' len='262144'/>
+      <byte_run offset='2895872' img_offset='29654016' len='262144'/>
+      <byte_run offset='3158016' img_offset='29917184' len='262144'/>
+      <byte_run offset='3420160' img_offset='30180352' len='262144'/>
+      <byte_run offset='3682304' img_offset='30443520' len='262144'/>
+      <byte_run offset='3944448' img_offset='30706688' len='262144'/>
+      <byte_run offset='4206592' img_offset='30969856' len='262144'/>
+      <byte_run offset='4468736' img_offset='31233024' len='262144'/>
+      <byte_run offset='4730880' img_offset='31496192' len='262144'/>
+      <byte_run offset='4993024' img_offset='31759360' len='262144'/>
+      <byte_run offset='5255168' img_offset='32022528' len='262144'/>
+      <byte_run offset='5517312' img_offset='32285696' len='262144'/>
+      <byte_run offset='5779456' img_offset='32548864' len='262144'/>
+      <byte_run offset='6041600' img_offset='32812032' len='262144'/>
+      <byte_run offset='6303744' img_offset='33075200' len='262144'/>
+      <byte_run offset='6565888' img_offset='33338368' len='262144'/>
+      <byte_run offset='6828032' img_offset='33601536' len='2048'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0063584.txt</filename>
+    <filesize>500000</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='33603584' len='12288'/>
+      <byte_run offset='12288' img_offset='33616896' len='262144'/>
+      <byte_run offset='274432' img_offset='33881088' len='226304'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0064568.gif</filename>
+    <filesize>11407</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='34107392' len='12288'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0064592.gif</filename>
+    <filesize>4105</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='34119680' len='5120'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0066296.txt</filename>
+    <filesize>237856</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='34992128' len='238592'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0098808.doc</filename>
+    <filesize>25088</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='51638272' len='12288'/>
+      <byte_run offset='12288' img_offset='51651584' len='13312'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0098860.txt</filename>
+    <filesize>264</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='51664896' len='1024'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0099458.txt</filename>
+    <filesize>32768</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='51971072' len='32768'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0101730.txt</filename>
+    <filesize>16384</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='53134336' len='16384'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0102150.txt</filename>
+    <filesize>65536</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='53349376' len='65536'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0102402.txt</filename>
+    <filesize>131072</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='53478400' len='131072'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0102914.txt</filename>
+    <filesize>637856</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='53740544' len='637952'/>
+    </byte_runs>
+  </fileobject>
+</dfxml>

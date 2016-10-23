@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dfxml xmloutputversion='1.0'>
+  <metadata 
+  xmlns='http://www.forensicswiki.org/wiki/Category:Digital_Forensics_XML' 
+  xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' 
+  xmlns:dc='http://purl.org/dc/elements/1.1/'>
+    <dc:type>Carve Report</dc:type>
+  </metadata>
+  <creator>
+    <package>PhotoRec</package>
+    <version>7.0</version>
+    <build_environment>
+      <compiler>GCC 5.3</compiler>
+      <library name='libext2fs' version='1.42.13'/>
+      <library name='libewf' version='none'/>
+      <library name='libjpeg' version='libjpeg-turbo-1.4.2'/>
+      <library name='libntfs' version='libntfs-3g'/>
+    </build_environment>
+    <execution_environment>
+      <os_sysname>Linux</os_sysname>
+      <os_release>4.4.0-45-generic</os_release>
+      <os_version>#66-Ubuntu SMP Wed Oct 19 14:12:37 UTC 2016</os_version>
+      <host>bob-ThinkPad-X230</host>
+      <arch>x86_64</arch>
+      <uid>1000</uid>
+      <start_time>2016-10-23T21:01:45+0200</start_time>
+    </execution_environment>
+  </creator>
+  <source>
+    <image_filename>f0098808.doc</image_filename>
+    <sectorsize>512</sectorsize>
+    <image_size>25088</image_size>
+    <volume>
+      <byte_runs>
+        <byte_run offset='0' img_offset='0' len='25088'/>
+      </byte_runs>
+    </volume>
+  </source>
+  <configuration>
+  </configuration>
+  <fileobject>
+    <filename>f0000000.doc</filename>
+    <filesize>25088</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='0' len='65536'/>
+    </byte_runs>
+  </fileobject>
+</dfxml>

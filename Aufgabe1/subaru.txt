@@ -1,0 +1,11 @@
+........#..'..$..........P.(....#..'..$..#..$........'.....#..$....ANSI....'...
+
+SunOS 5.9
+.
+..........login: ..................ggoollddeenn
+Password: kkkkk
+Login incorrect
+login: ggoollddeenn
+Password: helovessubaru
+Login incorrect
+login: .^D..

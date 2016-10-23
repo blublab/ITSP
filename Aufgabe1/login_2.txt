@@ -1,0 +1,49 @@
+........#..'..$..........P.(....#..'..$..#..$........'.....#..$....ANSI....'...
+
+SunOS 5.9
+
+.
+
+..........login: ..................ggnnoommee
+
+Password: gnome123
+
+Last login: Mon Apr 26 17:23:39 from 137.30.122.253
+Sun Microsystems Inc.   SunOS 5.9       Generic May 2002
+You have new mail.
+gnome      pts/8        Apr 26 17:24    (137.30.122.253)
+
+        Today is ........................Mon Apr 26 17:24:34 CDT 2004
+        Your system identification is ...uid=2287(gnome) gid=2000(cscistu)
+        Your terminal address is ......../dev/pts/8
+        Your current directory is ......./home/gnome
+        Your file creation mask is ......022
+        Your server name is .............cook
+        Processor .......................sparc
+        Operating System ................sun solaris v5.9
+cook:[gnome]$ ccaatt  >>  JJOOHHNNRREEAADDMMEE
+
+II  ttrriieedd  ttoo  hhaacckk  GGoollddeenn''ss  aaccccoouunntt  uu.. .bbuutt  tthhee  ppaasssswwoorrdd  wwaass  wwrroonngg..
+
+
+
+----GGeeoorrggee.. .iiaa
+
+.^D..cook:[gnome]$ 
+
+cook:[gnome]$ llss  --ll
+
+total 1066
+-rw-r--r--   1 gnome    cscistu       72 Apr 26  2004 JOHNREADME
+-rwxr-xr-x   1 gnome    cscistu     2307 Feb 26 18:26 Xinitrc.XFce
+-rw-r--r--   1 gnome    cscistu   230566 Apr 26  2004 contraband.zip
+-rw-r--r--   1 gnome    cscistu      269 Feb 26 17:17 cshrc.user
+-rw-r--r--   1 gnome    cscistu   117773 Apr 21 16:41 golden.jpg
+-rw-r--r--   1 gnome    cscistu    65703 Apr 26 17:25 rhino1.jpg
+-rw-r--r--   1 gnome    cscistu    96899 Apr 26  2004 rhino3.jpg
+cook:[gnome]$ llooggoouutt
+
+ksh: logout:  not found
+cook:[gnome]$ eexxiitt
+
+logout
