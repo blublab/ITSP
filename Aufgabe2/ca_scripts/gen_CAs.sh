@@ -16,10 +16,8 @@ openssl req -new -key $SSL.key -out $SSL.csr -subj "/C=DE/O=haw-hamburg/OU=infor
 openssl req -new -key $APACHE.key -out $APACHE.csr -subj "/C=DE/O=haw-hamburg/OU=informatik/CN=diana_yavuz.informatik.haw-hamburg.de"
 
 # zertifikate erzeugen
-for i in "${array[@]}"
-do
-	openssl x509 -req -in $i.csr -CA $ROOTCADIR/rootCA.pem -CAkey $ROOTCADIR/rootCA.key -CAserial $ROOTCADIR/rootCA.srl  -out $i.crt -days 28 -sha256
-done
+openssl x509 -req -in $SSL.csr -CA $ROOTCADIR/rootCA.pem -CAkey $ROOTCADIR/rootCA.key -CAserial $ROOTCADIR/rootCA.srl  -out $SSL.crt -days 28 -sha256
+openssl x509 -req -in $APACHE.csr -CA ssl.crt -CAkey ssl.key -CAserial $SSL.srl  -out $APACHE.crt -days 28 -sha256
 
 
 #openssl x509 -req -in device.csr -CA rootCA.pem -CAkey rootCA.key -CAcreateserial -out device.crt -days 28 -sha256
