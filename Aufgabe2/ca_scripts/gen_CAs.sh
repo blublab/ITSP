@@ -12,8 +12,8 @@ do
 done
 
 # csr erzeugen
-openssl req -new -key $SSL.key -out $SSL.csr -subj "/C=DE/O=haw-hamburg/OU=informatik/CN=CA-diana_yavuz"
-openssl req -new -key $APACHE.key -out $APACHE.csr -subj "/C=DE/O=haw-hamburg/OU=informatik/CN=diana_yavuz.informatik.haw-hamburg.de"
+openssl req -new -key $SSL.key -out $SSL.csr -subj "/C=DE/O=haw-hamburg/OU=informatik/CN=CA-diana-yavuz"
+openssl req -new -key $APACHE.key -out $APACHE.csr -subj "/C=DE/O=haw-hamburg/OU=informatik/CN=diana-yavuz.informatik.haw-hamburg.de"
 
 # zertifikate erzeugen
 openssl x509 -req -in $SSL.csr -CA $ROOTCADIR/rootCA.pem -CAkey $ROOTCADIR/rootCA.key -CAserial $ROOTCADIR/rootCA.srl  -out $SSL.crt -days 28 -sha256
