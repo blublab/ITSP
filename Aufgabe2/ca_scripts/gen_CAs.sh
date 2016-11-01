@@ -1,7 +1,7 @@
 #!/bin/bash
 
 SSL="ssl"
-APACHE="apache"
+APACHE="example.com"
 array=( $SSL $APACHE )
 ROOTCADIR="rootCA"
 
