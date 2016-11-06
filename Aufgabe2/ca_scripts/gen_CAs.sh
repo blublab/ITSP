@@ -1,7 +1,7 @@
 #!/bin/bash
 
 SSL="ssl"
-APACHE="example.com"
+APACHE="diana-yavuz.informatik.haw-hamburg.de"
 array=( $SSL $APACHE )
 ROOTCADIR="rootCA"
 
@@ -15,6 +15,7 @@ done
 openssl req -new -key $SSL.key -out $SSL.csr -subj "/C=DE/O=haw-hamburg/OU=informatik/CN=CA-diana-yavuz"
 openssl req -new -key $APACHE.key -out $APACHE.csr -subj "/C=DE/O=haw-hamburg/OU=informatik/CN=diana-yavuz.informatik.haw-hamburg.de"
 
+#diana-yavuz.informatik.haw-hamburg.de
 # zertifikate erzeugen
 openssl x509 -req -in $SSL.csr -CA $ROOTCADIR/rootCA.pem -CAkey $ROOTCADIR/rootCA.key -CAserial $ROOTCADIR/rootCA.srl  -out $SSL.crt -days 28 -sha256
 openssl x509 -req -in $APACHE.csr -CA ssl.crt -CAkey ssl.key -CAserial $SSL.srl  -out $APACHE.crt -days 28 -sha256
