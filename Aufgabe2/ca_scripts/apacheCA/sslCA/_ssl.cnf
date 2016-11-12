@@ -6,17 +6,16 @@ default_ca	= CA_root		# The default ca section
 ####################################################################
 [ CA_root ]
 
-dir		= /home/bob/ITSP/Aufgabe2/ca_scripts/apacheCA		# Where everything is kept
-ssldir		= /home/bob/ITSP/Aufgabe2/ca_scripts/sslCA
+dir		= /home/bob/ITSP/Aufgabe2/ca_scripts/apacheCA/sslCA		# Where everything is kept
 certs		= $dir/certs		# Where the issued certs are kept
 crl_dir		= $dir/crl			# Where the issued crl are kept
 database	= $dir/index.txt		# database index file.
 new_certs_dir	= $dir/newcerts		# default place for new certs.
 
-certificate	= $ssldir/sslCA.crt 	# The CA certificate
-serial		= $ssldir/sslCA.srl		# The current serial number
+certificate	= $dir/rootCA/certs/rootCA.pem 	# The CA certificate
+serial		= $dir/rootCA/rootCA.srl		# The current serial number
 crl		= $dir/clr/crl.pem 		# The current CRL
-private_key	= $ssldir/sslCA.key	# The private key
+private_key	= $dir/rootCA/rootCA.key	# The private key
 RANDFILE	= ~/.rnd	# private random number file
 
 default_md       = sha256
