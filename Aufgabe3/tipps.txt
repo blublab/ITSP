@@ -1,0 +1,3 @@
+password hashen -> entweder username unique oder datenbank id mit rein nehmen
+
+link genereieren -> username & timestamp gehashed (für 30 min zugewiesen an nutzer auf server) 
