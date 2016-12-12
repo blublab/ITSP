@@ -1,0 +1,26 @@
+!!! 5
+html(lang='de')
+	head
+		title ITSP Authentifizierung
+	body
+		h1 Willkommen #{user}.
+		- each message in flash
+			h4(style="color: red;") #{message}
+		
+		h4 Passwort aktualisieren
+		form(action='/update_password', method='post')
+			p
+				label(for='password') Passwort  
+				input(type='password', name='password')
+			input(type='submit', value='Update Passwort')
+		
+		h4 Email aktualisieren
+		p Aktuelle Email: #{mail}
+		form(action='/update_mail', method='post')
+			p
+				label(for='mail') Email  
+				input(type='text', name='mail')
+			input(type='submit', value='Update Email')
+
+		h4 
+		a(href="/logout") Logout

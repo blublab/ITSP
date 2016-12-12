@@ -1,0 +1,16 @@
+!!! 5
+html(lang='de')
+	head
+		title ITSP Authentifizierung
+	body
+		h1 Bitte einloggen
+		form(method='post')
+			p
+				label(for='username') Benutzername  
+				input(type='text', name='username')
+			p
+				label(for='password') Passwort  
+				input(type='password', name='password')
+			input(type='submit', value='Login')
+		- each message in flash
+			h4(style="color: red;") #{message}

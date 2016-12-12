@@ -3,7 +3,7 @@
       xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
       xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
 >
-  <bookmark href="file:///root/gist-expressauthentication/lib/routes.js" added="2016-12-06T13:05:40Z" modified="2016-12-06T14:31:11Z" visited="2016-12-06T13:05:41Z">
+  <bookmark href="file:///root/gist-expressauthentication/lib/routes.js" added="2016-12-06T13:05:40Z" modified="2016-12-12T22:13:39Z" visited="2016-12-06T13:05:41Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="application/javascript"/>
@@ -11,12 +11,12 @@
           <bookmark:group>gedit</bookmark:group>
         </bookmark:groups>
         <bookmark:applications>
-          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-06T14:31:11Z" count="47"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-12T22:13:39Z" count="103"/>
         </bookmark:applications>
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///root/gist-expressauthentication/app.js" added="2016-12-06T13:06:45Z" modified="2016-12-06T14:00:53Z" visited="2016-12-06T13:06:45Z">
+  <bookmark href="file:///root/gist-expressauthentication/app.js" added="2016-12-06T13:06:45Z" modified="2016-12-12T21:32:58Z" visited="2016-12-06T13:06:45Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="application/javascript"/>
@@ -24,7 +24,7 @@
           <bookmark:group>gedit</bookmark:group>
         </bookmark:groups>
         <bookmark:applications>
-          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-06T14:00:53Z" count="4"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-12T21:32:58Z" count="6"/>
         </bookmark:applications>
       </metadata>
     </info>
@@ -42,7 +42,7 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///root/gist-expressauthentication/views/secure.jade" added="2016-12-06T14:15:32Z" modified="2016-12-06T14:31:49Z" visited="2016-12-06T14:15:32Z">
+  <bookmark href="file:///root/gist-expressauthentication/views/secure.jade" added="2016-12-06T14:15:32Z" modified="2016-12-12T22:08:16Z" visited="2016-12-06T14:15:32Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="text/plain"/>
@@ -50,12 +50,12 @@
           <bookmark:group>gedit</bookmark:group>
         </bookmark:groups>
         <bookmark:applications>
-          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-06T14:31:49Z" count="30"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-12T22:08:16Z" count="47"/>
         </bookmark:applications>
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///root/gist-expressauthentication/views/login.jade" added="2016-12-06T14:16:24Z" modified="2016-12-06T14:17:50Z" visited="2016-12-06T14:16:24Z">
+  <bookmark href="file:///root/gist-expressauthentication/views/login.jade" added="2016-12-06T14:16:24Z" modified="2016-12-12T21:28:35Z" visited="2016-12-06T14:16:24Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="text/plain"/>
@@ -63,7 +63,20 @@
           <bookmark:group>gedit</bookmark:group>
         </bookmark:groups>
         <bookmark:applications>
-          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-06T14:17:50Z" count="4"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-12T21:28:35Z" count="6"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///root/gist-expressauthentication/views/unauthorised.jade" added="2016-12-12T21:01:28Z" modified="2016-12-12T21:03:34Z" visited="2016-12-12T21:01:29Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-12T21:03:34Z" count="3"/>
         </bookmark:applications>
       </metadata>
     </info>

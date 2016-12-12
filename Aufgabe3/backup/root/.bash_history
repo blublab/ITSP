@@ -298,3 +298,50 @@ cd gist-expressauthentication/
 ls
 exit
 gedit gist-expressauthentication/app.js 
+s
+ls
+cd gist-expressauthentication/
+ls
+vim views/login.jade 
+cd
+wget http://download.redis.io/redis-stable.tar.gz
+tar xvzf redis-stable.tar.gz
+cd redis-stable
+make
+make test
+apt-get install tcl
+make test
+make install
+mkdir /etc/redis
+cp redis.conf /etc/redis/
+ll /sbin/init
+npm install crypto
+cd gist-expressauthentication/
+gedit lib/routes.js 
+screen -S redis
+apt-get install screen
+screen -S redis
+redis-cli ping
+npm install redis
+man redis-cli
+vim /etc/apache2/sites-available/diana-yavuz.informatik.haw-hamburg.de-ssl.conf 
+vim /etc/apache2/sites-available/diana-yavuz.informatik.haw-hamburg.de.conf 
+vim /etc/apache2/sites-available/diana-yavuz.informatik.haw-hamburg.de-ssl.conf 
+l
+ls
+rm -rf express_example/
+rm npm-debug.log 
+cd gist-expressauthentication/
+ls
+npm install
+npm start
+service apache2 restart
+npm start
+screen -S express
+redis-cli
+gedit gist-expressauthentication/app.js 
+ls
+cd gist-expressauthentication/
+ls
+gedit lib/routes.js 
+exit
