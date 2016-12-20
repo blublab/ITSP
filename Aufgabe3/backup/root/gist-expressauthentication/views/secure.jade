@@ -15,7 +15,9 @@ html(lang='de')
 			input(type='submit', value='Update Passwort')
 		
 		h4 Email aktualisieren
-		p Aktuelle Email: #{mail}
+		p Aktuelle Email: #{mail} Verifiziert: #{valid}
+		//form(action="/verify_mail/user="+user, method='post')
+		//	input(type='submit', value='Email verifizieren')
 		form(action='/update_mail', method='post')
 			p
 				label(for='mail') Email  

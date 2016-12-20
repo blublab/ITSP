@@ -17,6 +17,11 @@ function checkAuth (req, res, next) {
 	next();
 }
 
+var path = require('path');
+var static_path = path.join(__dirname, '/mails')
+app.use(express.static(static_path));
+
+
 app.configure(function () {
 
 	app.use(express.cookieParser());

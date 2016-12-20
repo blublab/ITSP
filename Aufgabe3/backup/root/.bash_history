@@ -345,3 +345,53 @@ cd gist-expressauthentication/
 ls
 gedit lib/routes.js 
 exit
+screen -l
+screen -ls
+screen -r
+screen -r 994.pts-2.94577517d9ea
+screen -ls
+redis-cli 
+screen -ls
+screen -r 755
+ll /certs/
+cd /certs/
+ls
+rm server-chain.pem 
+ll
+rm -rf *
+ls
+service apache2 restart
+cd ..
+gedit &
+ls
+cd gis
+cd gist-expressauthentication/
+ls
+cd lib/routes.js 
+nano lib/routes.js 
+gedit lib/routes.js 
+vim lib/routes.js 
+ls
+ls gist-expressauthentication/
+ls gist-expressauthentication/lib/
+ls
+ls /etc/
+ls /etc/redis/
+ls
+screen -ls
+screen r 332.redis
+screen -rr 332.redis
+screen -r 332.redis
+screen -ls
+screnn -r 755.express
+screen -r 755.express
+screen -wipe
+screen -ls
+screen -S redis
+screen -S express
+service apache2 restart
+redis-cli 
+ls
+mv gist-expressauthentication/ gist-expressauthentication.BAK
+ls
+rm -rf gist-expressauthentication
