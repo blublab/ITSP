@@ -69,9 +69,9 @@ module.exports = function (app) {
 		var filename = user+"_mail.html";
 		var file = path.join(__dirname,"../mails/"+filename);
 		if (req.secure) {
-  			var fullUrl = 'https://' + req.headers.host  + url;
+  			var fullUrl = 'https://diana-yavuz.informatik.haw-hamburg.de'  + url;
 		} else {
-			var fullUrl = 'http://' + req.headers.host  + url;
+			var fullUrl = 'http://diana-yavuz.informatik.haw-hamburg.de'   + url;
 		}
 		var text= "Bitte klicke <a href="+fullUrl+">hier</a>, um deine Email zu verifizieren."
 		fs.writeFile(file, text, function(err) {
@@ -187,9 +187,9 @@ module.exports = function (app) {
 						var filename = user+"_password.html";
 						var file = path.join(__dirname,"../mails/"+filename);
 						if (req.secure) {
-				  			var fullUrl = 'https://' + req.headers.host  + url;
+				  			var fullUrl = 'https://diana-yavuz.informatik.haw-hamburg.de' + url;
 						} else {
-							var fullUrl = 'http://' + req.headers.host  + url;
+							var fullUrl = 'https://diana-yavuz.informatik.haw-hamburg.de' + url;
 						}
 						var text= "Bitte klicke <a href="+fullUrl+">hier</a>, um ein neues Passwort zu setzen."
 						fs.writeFile(file, text, function(err) {

@@ -11,8 +11,8 @@
 ~Msle0~/\<DocumentRoot\>
 
 # Befehlszeile Geschichte (neueste bis älteste):
-:q!
 :wq
+:q!
 :w
 :q
 
@@ -34,31 +34,34 @@
 	d
 
 # Datei-Marken:
-'0  19  0  ~/gist-expressauthentication/lib/routes.js
-'1  142  31  ~/gist-expressauthentication/lib/routes.js
-'2  24  56  ~/gist-expressauthentication/admin.py
-'3  70  0  ~/gist-expressauthentication/lib/routes.js
-'4  1  4  ~/gist-expressauthentication/views/login.jade
-'5  1  0  /etc/apache2/sites-available/diana-yavuz.informatik.haw-hamburg.de-ssl.conf
-'6  19  33  /etc/apache2/sites-available/diana-yavuz.informatik.haw-hamburg.de.conf
-'7  17  48  /etc/apache2/sites-available/diana-yavuz.informatik.haw-hamburg.de-ssl.conf
-'8  9  64  /etc/apache2/sites-available/diana-yavuz.informatik.haw-hamburg.de-ssl.conf
-'9  11  38  /etc/apache2/sites-available/diana-yavuz.informatik.haw-hamburg.de-ssl.conf
+'0  11  31  /etc/apache2/sites-available/diana-yavuz.informatik.haw-hamburg.de-ssl.conf
+'1  85  0  ~/gist-expressauthentication/lib/routes.js
+'2  1  0  ~/gist-expressauthentication/views/mail.jade
+'3  92  0  ~/gist-expressauthentication/lib/routes.js
+'4  1  0  ~/gist-expressauthentication/lib/routes.js
+'5  19  0  ~/gist-expressauthentication/lib/routes.js
+'6  142  31  ~/gist-expressauthentication/lib/routes.js
+'7  24  56  ~/gist-expressauthentication/admin.py
+'8  70  0  ~/gist-expressauthentication/lib/routes.js
+'9  1  4  ~/gist-expressauthentication/views/login.jade
 
 # Geschichte (neueste zuerst):
--'  19  0  ~/gist-expressauthentication/lib/routes.js
+-'  11  31  /etc/apache2/sites-available/diana-yavuz.informatik.haw-hamburg.de-ssl.conf
+-'  1  0  /etc/apache2/sites-available/diana-yavuz.informatik.haw-hamburg.de-ssl.conf
+-'  85  0  ~/gist-expressauthentication/lib/routes.js
 -'  1  0  ~/gist-expressauthentication/lib/routes.js
+-'  1  0  ~/gist-expressauthentication/views/mail.jade
+-'  92  0  ~/gist-expressauthentication/lib/routes.js
+-'  19  0  ~/gist-expressauthentication/lib/routes.js
 -'  142  31  ~/gist-expressauthentication/lib/routes.js
 -'  24  56  ~/gist-expressauthentication/admin.py
 -'  1  0  ~/gist-expressauthentication/admin.py
 -'  70  0  ~/gist-expressauthentication/lib/routes.js
 -'  1  4  ~/gist-expressauthentication/views/login.jade
--'  1  0  /etc/apache2/sites-available/diana-yavuz.informatik.haw-hamburg.de-ssl.conf
 -'  19  33  /etc/apache2/sites-available/diana-yavuz.informatik.haw-hamburg.de.conf
 -'  1  0  /etc/apache2/sites-available/diana-yavuz.informatik.haw-hamburg.de.conf
 -'  17  48  /etc/apache2/sites-available/diana-yavuz.informatik.haw-hamburg.de-ssl.conf
 -'  9  64  /etc/apache2/sites-available/diana-yavuz.informatik.haw-hamburg.de-ssl.conf
--'  11  38  /etc/apache2/sites-available/diana-yavuz.informatik.haw-hamburg.de-ssl.conf
 -'  21  5  /etc/apache2/sites-available/diana-yavuz.informatik.haw-hamburg.de.conf
 -'  5  1  /etc/apache2/sites-available/diana-yavuz.informatik.haw-hamburg.de-ssl.conf
 -'  10  1  ~/express_example/app.js
@@ -140,19 +143,70 @@
 -'  1  0  /etc/environment
 -'  3  0  /etc/environment
 -'  1  0  /etc/environment
--'  2  0  /etc/default/locale
--'  1  0  /etc/default/locale
--'  3  0  /etc/environment
--'  1  0  /etc/environment
 
 # Geschichte der Markierungen innerhalb von Dateien (neueste zuerst):
 
+> /etc/apache2/sites-available/diana-yavuz.informatik.haw-hamburg.de-ssl.conf
+	"	11	31
+	^	11	32
+	.	11	31
+	+	14	37
+	+	23	0
+	+	5	2
+	+	21	38
+	+	16	1
+	+	17	8
+	+	18	8
+	+	19	8
+	+	20	8
+	+	21	8
+	+	19	37
+	+	20	32
+	+	19	25
+	+	16	2
+	+	17	9
+	+	18	9
+	+	19	9
+	+	20	9
+	+	21	9
+	+	5	2
+	+	14	2
+	+	13	42
+	+	12	34
+	+	14	3
+	+	12	33
+	+	14	48
+	+	12	28
+	+	18	9
+	+	17	9
+	+	19	9
+	+	20	9
+	+	21	9
+	+	19	42
+	+	20	48
+	+	14	45
+	+	13	75
+	+	12	31
+	+	13	69
+	+	10	1
+	+	9	1
+	+	12	0
+	+	11	41
+	+	10	17
+	+	11	2
+	+	147	184
+	+	147	1
+	+	11	31
+
 > ~/gist-expressauthentication/lib/routes.js
-	"	19	0
+	"	85	0
 	^	142	32
 	.	142	32
 	+	6	22
 	+	142	32
+
+> ~/gist-expressauthentication/views/mail.jade
+	"	1	0
 
 > ~/gist-expressauthentication/admin.py
 	"	24	56
@@ -162,45 +216,6 @@
 
 > ~/gist-expressauthentication/views/login.jade
 	"	1	4
-
-> /etc/apache2/sites-available/diana-yavuz.informatik.haw-hamburg.de-ssl.conf
-	"	1	0
-	^	17	49
-	.	17	48
-	+	11	37
-	+	20	0
-	+	5	2
-	+	18	38
-	+	13	1
-	+	14	8
-	+	15	8
-	+	16	8
-	+	17	8
-	+	18	8
-	+	16	37
-	+	17	32
-	+	16	25
-	+	13	2
-	+	14	9
-	+	15	9
-	+	16	9
-	+	17	9
-	+	18	9
-	+	5	2
-	+	11	2
-	+	10	42
-	+	9	34
-	+	11	3
-	+	9	33
-	+	11	48
-	+	9	28
-	+	15	9
-	+	14	9
-	+	16	9
-	+	17	9
-	+	18	9
-	+	16	42
-	+	17	48
 
 > /etc/apache2/sites-available/diana-yavuz.informatik.haw-hamburg.de.conf
 	"	19	33

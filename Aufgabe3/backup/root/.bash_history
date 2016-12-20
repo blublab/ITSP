@@ -395,3 +395,63 @@ ls
 mv gist-expressauthentication/ gist-expressauthentication.BAK
 ls
 rm -rf gist-expressauthentication
+cd gist-expressauthentication
+ls
+vim lib/routes.js 
+screen -r express
+vim lib/routes.js 
+cd gist-expressauthentication/
+cat views/login.jade 
+redis-cli
+ls
+cd gist-expressauthentication
+ls
+python admin.py 
+pip install redis
+python pip install redis
+sudo easy_install pip
+ls
+cd
+pip
+wget https://bootstrap.pypa.io/get-pip.py
+ls
+python get-pip.py 
+pip install redis
+ls
+cd gist-expressauthentication
+python admin.py 
+python admin.py -c yavuz test yavuz@itsp.com
+screen -ls
+screen -r express
+python admin.py -l
+vim admin.py 
+python admin.py -l
+python admin.py -d yavuz
+python admin.py -c yavuz test yavuz@itsp.com
+python admin.py -l
+time
+date
+dpkg-reconfigure tzdata
+date
+python admin.py -d yavuz
+python admin.py -c yavuz test yavuz@itsp.com
+date
+rm mails/*
+python admin.py -d yavuz
+python admin.py -c yavuz test yavuz@itsp.com
+ls
+cd gist-expressauthentication
+ls
+vim lib/routes.js 
+ls -a
+vim lib/routes.js 
+redis-cli
+vim lib/routes.js 
+redis-cli
+exit
+cd gist-expressauthentication
+ls
+ls views/
+vim lib/routes.js 
+vim views/mail.jade 
+vim lib/routes.js 
